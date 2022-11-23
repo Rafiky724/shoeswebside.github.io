@@ -69,9 +69,9 @@ function initScene() {
     pointLight.position.set( 0, 30, 0);
     scene.add( pointLight );
 
-    const sphereSize = 1;
+    /*const sphereSize = 1;
     const pointLightHelper = new THREE.PointLightHelper( pointLight, sphereSize );
-    scene.add( pointLightHelper );
+    scene.add( pointLightHelper );*/
     
 
     createFistModel("src/models/obj/louis/","11742_shoe_v1_L3.mtl","11742_shoe_v1_L3.obj");
@@ -105,7 +105,6 @@ function createFistModel(generalPath,pathMtl,pathObj) {
 
     });
 }
-
 
 
 function animate() {
