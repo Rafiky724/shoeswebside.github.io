@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Shoes Webside - Producto 1</title>
+        <!-- Favicon-->
+        <link rel="shortcut icon" href="./img/zapatospiola.png" type="image">
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+
+        <!--THREEJS-->
+        <script src="./src/libs/build/three.js"></script>
+        <script src="./src/three.js-master/build/three.min.js"></script>
+        <!--CONTROLS-->
+
+        <script src="./src/libs/control/OrbitControls.js"></script>
+        <!--LOAD FILES-->
+        <script src="./src/libs/load/DRACOLoader.js"></script>
+        <script src="./src/libs/load/GLTFLoader.js"></script>
+        <script src="./src/libs/load/OBJLoader.js"> </script>
+        <script src="./src/libs/load/MTLLoader.js"> </script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body onload="start()" class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-image: linear-gradient(to left, rgb(6, 32, 38),rgb(9,45,51), rgb(6, 32, 38));
+            ">
+                    <div class="container px-5 navegador">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <li class="nav-item"><img src="img/logo_2.png" class="imageta"></li>
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item"><a class="nav-link" href="index.html" style="color: white;">Inicio</a></li>
+                                <li class="nav-item"><a class="nav-link" href="about.html" style="color: white;">Catálogo</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            <!-- Page Content-->
+            <section class="py-5 footeri">
+                <div class="contenido"> 
+                    <div class="zapato"><b>Zapatos Piolas Nike - Modelo 2022 <br>Originales, Talla Única</b></div>
+                    <div><img src="img/estrellas.png" class="estrellas"></div>
+                    <div class="">Cantidad</div>
+                    <div><input type="number"></div>
+                    <div class="cant">Talla</div>
+                    <div><button>35</button></div>
+                    <div class="zapato"><b>Detalles</b></div>
+                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, dolorem minima deserunt voluptatem suscipit obcaecati fugiat quidem consequuntur atque accusamus aspernatur odit eos voluptate ut asperiores iste architecto. Fuga, id.</div>
+                    <br>
+                    <div class="zapato"><b>$299.000</b></div>
+                    <button class="comprar"><b>Comprar</b></button>
+                </div>
+
+                <div>
+
+                    <canvas class="webgl4"></canvas>
+
+                </div>
+            </section>
+        </main>
+        <footer class="bg-dark py-4 mt-auto" style="background-image: linear-gradient(to left, rgb(6, 32, 38),rgb(9,45,51), rgb(6, 32, 38));">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white"><img src="img/logo_2.png" class="imageta2"></div></div>
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Shoes Webside 2022</div></div>
+                    <div class="col-auto"><div class="small m-0 text-white"><img src="img/appelStore.png" class="imaget">
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script src="js/loadItem1.js"></script>
+    </body>
+</html>
